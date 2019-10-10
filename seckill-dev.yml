@@ -18,10 +18,10 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 10
   rabbitmq:
+    username: zgq
+    password: zgqone
+    host: 192.168.58.128
     virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
     template:
       exchange: leyou.order.exchange
     publisher-confirms: true

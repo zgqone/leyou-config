@@ -11,15 +11,15 @@ spring:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: 192.168.19.121
-    username: /leyou
-    password: leyou
+    username: zgq
+    password: zgqone
+    host: 192.168.58.128
     virtual-host: /leyou
     template:
       queue: leyou.order.delay.queue
     publisher-confirms: true
   redis:
-    host: 192.168.19.121
+    host: 127.0.0.1
 eureka:
   client:
     service-url:

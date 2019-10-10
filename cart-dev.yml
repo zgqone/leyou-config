@@ -7,9 +7,9 @@ spring:
     host: 192.168.19.121
   rabbitmq:
     virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
+    username: zgq
+    password: zgqone
+    host: 192.168.58.128
 eureka:
   client:
     service-url:
